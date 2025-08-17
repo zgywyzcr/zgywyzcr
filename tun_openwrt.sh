@@ -8,8 +8,8 @@
 #################################################
 
 # 配置参数
-BACKEND_URL=""  # 转换后端地址
-SUBSCRIPTION_URL=""  # 订阅地址
+BACKEND_URL="http://192.168.0.122:5000"  # 转换后端地址
+SUBSCRIPTION_URL="https://f4.352343.cc/api/v1/client/subscribe?token=c4f462cce30680ac09fc5ba120506347"  # 订阅地址
 TEMPLATE_URL="https://raw.githubusercontent.com/qichiyuhub/rule/refs/heads/main/config/singbox/config_tun.json"  # 配置文件（规则模板)
 MAX_RETRIES=3  # 最大重试次数
 RETRY_DELAY=3  # 重试间隔时间（秒）
